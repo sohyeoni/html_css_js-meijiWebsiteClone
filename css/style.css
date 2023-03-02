@@ -1,0 +1,118 @@
+@import url("css/normalize.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    all: unset;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline solid;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+ 
+#header-container {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+#header-inner {
+    width: 100%;
+    height: 100%;
+    max-width: 1600px;
+    padding: 15px 0px 5px 22px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#header-relatedwebsite-container ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+#header-relatedwebsite-container ul li {
+    margin: 0 15px;
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 30px;
+}
+
+#header-relatedwebsite-container ul li:last-of-type {
+    margin-right: 0;
+}
+
+#header-relatedwebsite-container ul li img.page-icon {
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    width: 180px;
+    text-align: center;
+    font-size: 0.9em;
+    border-right: 1px solid #c5c5c5;
+    padding: 3px 0;
+}
+
+nav ul li:last-of-type {
+    border-right: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+input#search {
+    width: 240px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+}
+
+.search-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: -32px;
+    top: 5px;
+}
