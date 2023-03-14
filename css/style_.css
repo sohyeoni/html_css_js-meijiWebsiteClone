@@ -30,12 +30,12 @@ header { border-bottom: 1px solid #dfdacb; }
 #search-btn { border: none; background: none; position: relative; left: -33px; top: 4px; }
 #search-btn > img { width: 17px; height: 17px; }
 /* global nav css */
-.header-item3 > nav > ul { display: flex; justify-content: flex-end; margin-right: 25px;}
+.header-item3 > nav > ul { display: flex; justify-content: flex-end; margin-right: 25px; }
 .header-item3 > nav > ul > li { width: 180px; padding-bottom: 16px; text-align: center; }
 .header-item3 > nav > ul > li > a { font-size: 15px; }
-.header-item3 > nav > ul > li > div { display: none; position: absolute; }
-.header-item3 > nav > ul > li:hover { border-bottom: 5px solid #e30200;}
-.header-item3 > nav > ul > li:hover > div { display: block; left: 0; right: 0; top: 100px; background-color: #fff; border-top: 1px solid #dfdacb; box-shadow: 0px 8px 10px  rgba(0.2, 0.2, 0.2, 0.3); }
+.header-item3 > nav > ul > li > div { display: none; position: absolute; overflow: hidden; background-color: #fff; }
+.header-item3 > nav > ul > li:hover { border-bottom: 5px solid #e30200; }
+.header-item3 > nav > ul > li:hover > div { display: block;  left: 0; right: 0; top: 100px; border-top: 1px solid #dfdacb; box-shadow: 0px 8px 10px  rgba(0.2, 0.2, 0.2, 0.3); }
 .align-container { display: flex; justify-content: center; padding-top: 42px;}
 .align-container .left { text-align: left; margin-right: 60px; }
 ul.m-product-grid-container { display: grid; grid-template-columns: 240px 240px 240px; grid-template-rows: 145px 145px 145px; gap: 22px; }
@@ -104,6 +104,8 @@ ul.m-product-grid-container > li > a > p > img { margin-right: 12px; }
 
 /* main css */
 main {}
+.slide-container { max-width: 1900px; margin: 0 auto; }
+.slide > li img { width: 100%; }
 
 /* aside css */
 aside {}
