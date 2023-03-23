@@ -211,6 +211,19 @@ hr { margin: 80px 0; border: none; border-top: 5px dotted #c0bcb1; height: 1px; 
 .campaign-period { font-size: 14px; margin-top: 15px; }
 .campaign-period > span { color: #e30200; }
 
+/* cm gallury content css */
+.cmgallury-content-container { display: flex; width: 1200px; height: 365px; background-color: #ffe4da; padding: 20px; border-radius: 15px; }
+.cmgallury-img > img { width: 580px; height: 325px; border-radius: 15px; }
+.cmgallury-information { margin-left: 20px; }
+.cmgallury-product-name { font-size: 18px; text-align: center; margin-top: 75px; margin-bottom: 20px; }
+.cmgallury-promotion-title { display: flex; }
+.cmgallury-promotion-title:hover { text-decoration: underline; }
+.cmgallury-promotion-title > div:nth-child(1) > img { vertical-align: middle; }
+.cmgallury-promotion-title > div:nth-child(2) { font-size: 25px; font-weight: 700; }
+.cmgallury-site-btn { text-align: center; margin-top: 50px;}
+.cmgallury-site-btn > a { display: inline-block; width: 215px; height: 50px; background-color: #fff; border: 1px solid #e30200; border-radius: 27.5px; vertical-align: middle; font-size: 18px; font-weight: 700; line-height: 50px; }
+.cmgallury-site-btn > a > img { vertical-align: middle; margin-right: 12px; }
+
 /* aside css */
 aside {}
 
